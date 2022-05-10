@@ -12,6 +12,6 @@ class product extends Model
         'name',
         'unit',
         'price',
-        'quantity',
+        'quantity'
         ];
 }
