@@ -6,17 +6,10 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function register(Request $request){
-       
-        //For testing purpose, use hard coded data, till we design UI
-       /* $product = Product::create([
-            'id'=>'1794',
-            'name' => 'demeke',
-             'unit'=>'80',
-             'quantity'=>'34',
+    public function register(Request $request)
+    {
 
-        ]);
-        echo 'Product: ', $product->name;*/
+
         return view('product.register');
      function store(Request $request)
         {
