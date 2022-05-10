@@ -23,18 +23,6 @@ name" autofocus>
  </div>
  @csrf
  <div class="form-group row">
- <label for="id" class="col-md-4 col-formlabel text-md-right">{{ __('id') }}</label>
- <div class="col-md-6">
- <input id="id" type="text" class="formcontrol @error('id') isinvalid @enderror" name="id" value="{{ old('id') }}" required autocomplete="
-id" autofocus>
- @error('id')
- <span class="invalid-feedback" role="alert">
- <strong>{{ $message }}</strong>
- </span>
- @enderror
- </div>
- </div>
- <div class="form-group row">
  <label for="unit" class="col-md-4 col-formlabel text-md-right">{{ __('unit') }}</label>
  <div class="col-md-6">
  <input id="unit" type="text" class="formcontrol @error('unit') isinvalid @enderror" name="unit" value="{{ old('unit') }}" required autocomplete
