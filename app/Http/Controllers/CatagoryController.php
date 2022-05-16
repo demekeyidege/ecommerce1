@@ -36,4 +36,5 @@ public function get_by_id($id)
   $Catagory = Catagory::where('id', $id)->first();
   return view('Catagory.get_by_id', compact('Catagory'));
   }
+  
 }

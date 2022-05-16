@@ -26,7 +26,7 @@
  <tbody>
  @foreach($Catagory as $Catagory)
  <tr>
- <td> {{ $Catagory->id }}</td>
+ <td> {{ $Catagory->Catagory_id }}</td>
  <td> {{ $Catagory->name }}</td>
  </tr>
 @endforeach

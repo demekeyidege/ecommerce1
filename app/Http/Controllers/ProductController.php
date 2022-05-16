@@ -62,4 +62,5 @@ public function edit($id)
   $product = product::where('id', $id)->first();
   return view('product.search', compact('product'));
   }
+  
 }

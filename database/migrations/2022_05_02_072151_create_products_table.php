@@ -20,6 +20,10 @@ return new class extends Migration
             $table->string('unit');
             $table->string('price');
             $table->string('quantity');
+            $table->unsignedBigInteger('Catagory_id')->foreign('Catagory_id')
+                      ->reference('id')
+                      ->on('Catagories')
+                      ->onDelete('cascade');
 
         });
     }

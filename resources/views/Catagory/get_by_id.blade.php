@@ -8,7 +8,7 @@
  {{ __('Catagory Detail') }}
  </div>
  <div class="card-body">
- id : {{ $Catagory->id }}
+ id : {{ $Catagory->Catagory_id }}
  <br>
  Catagory : {{ $Catagory->name }}
  <br>
